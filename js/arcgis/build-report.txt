@@ -1,0 +1,836 @@
+Build started: Wed Feb 04 2015 17:43:05 GMT+0000 (UTC)
+Build application version: 1.10.2 (00884aa)
+Messages:
+info(103) Optimizing module complete.
+	/tmp/config-8262594726402313/release/dojo/dojo.js (compile time:9.466s)
+info(106) Optimizing CSS.
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dojo/_firebug/firebug.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dojo/resources/dnd.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dojo/resources/dojo.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/icons/commonIcons.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/icons/commonIcons_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/icons/editorIcons.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/icons/editorIcons_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/dijit.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/dijit_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Calendar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Calendar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/ColorPalette.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Dialog.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Dialog_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Editor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Editor_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/InlineEditBox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Menu.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Menu_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/ProgressBar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/ProgressBar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/TimePicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/TitlePane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/TitlePane_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Toolbar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Toolbar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/Tree.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/claro.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/claro_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/document.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Button.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Button_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Checkbox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Common_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/NumberSpinner.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/RadioButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Select.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Slider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/form/Slider_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/layout/AccordionContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/layout/BorderContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/layout/ContentPane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/layout/TabContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/claro/layout/TabContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Calendar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Calendar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/ColorPalette.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Dialog.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Dialog_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Editor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Editor_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Menu.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Menu_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/ProgressBar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/ProgressBar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/TimePicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/TimePicker_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/TitlePane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/TitlePane_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Toolbar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Tree.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/Tree_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/nihilo.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/nihilo_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Button.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Button_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Checkbox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/RadioButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Select.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Slider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/Slider_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/form/TimeTextBox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/AccordionContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/AccordionContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/BorderContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/ContentPane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/SplitContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/TabContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/nihilo/layout/TabContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Calendar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Calendar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/ColorPalette.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Dialog.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Dialog_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Editor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Editor_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Menu.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Menu_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/ProgressBar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/ProgressBar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/TimePicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/TimePicker_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/TitlePane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/TitlePane_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Toolbar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Tree.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/Tree_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/soria.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/soria_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Button.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Button_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Checkbox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/RadioButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Select.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Slider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/Slider_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/form/TimeTextBox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/AccordionContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/AccordionContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/BorderContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/ContentPane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/SplitContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/TabContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/soria/layout/TabContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Calendar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Calendar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/ColorPalette.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Dialog.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Dialog_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Editor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Editor_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Menu.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Menu_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/ProgressBar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/ProgressBar_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/TimePicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/TimePicker_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/TitlePane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/TitlePane_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Toolbar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Tree.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/Tree_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/tundra.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/tundra_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Button.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Checkbox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/RadioButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Select.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Slider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/form/Slider_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/AccordionContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/BorderContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/ContentPane.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/SplitContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/TabContainer.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/dijit/themes/tundra/layout/TabContainer_rtl.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/esri.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/jsapi.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-1.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/AnalysisPanel.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/TreeExpand.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/calcite.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/common.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/Breadcrumb.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/DataBrowser.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/DataCategoriesPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/DataCollectionsPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/DataVariablesPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/Pagination.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/SearchTextBox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/ShoppingCart.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/calcite/geoenrichment/VariableInfo.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/ColorPicker/css/ColorPicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/FeatureTable/css/master.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/GeocodeMatch/css/master.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/GeocodeReview/css/master.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/HorizontalSlider/css/HorizontalSlider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/RendererSlider/css/RendererSlider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/VisibleScaleRangeSlider/css/VisibleScaleRangeSlider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/analysis/css/analysis.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/analysis/css/helppopup.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/analysis/css/spacing.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/analysis/help/css/analysis.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/colorPicker/css/ColorPicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/AttributeInspector.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/BasemapGallery.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/BasemapToggle.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Bookmarks.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/CalculateField.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/ColorPicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Directions.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/DirectionsPrint.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/FontAlignment.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Form.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Gallery.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Gauge.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Geocoder.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/HomeButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/InfoWindow.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/LayerSwipe.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Legend.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/LocateButton.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Measurement.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/MosaicRule.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/OverviewMap.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Popup.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/PopupFont.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/PopupMobile.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Print.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/RenderingRule.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Scalebar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Search.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/SearchFont.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/SingleFilter.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/SymbolEditor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/Tags.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/TimeSlider.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/css/temporal.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/editing/css/TemplatePicker.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/editing/css/attachment.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/editing/css/drawingToolbar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/editing/css/editor.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/AgePyramid.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Anim.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/BaseSelectComparison.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/BaseWidget.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Breadcrumb.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/BufferOptions.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/DataBrowser.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/DataCategoriesPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/DataCollectionsPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/DataVariablesPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Grid.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/InfographicsCarousel.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/InfographicsMainPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/NotSupported.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/OneVar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Pagination.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/RelatedVariables.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/SearchTextBox.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/ShoppingCart.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Tapestry.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/VariableInfo.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/Wizard.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/common/main.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/AgePyramid.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/BaseSelectComparison.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/BaseWidget.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/InfographicsCarousel.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/InfographicsMainPage.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/OneVar.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/RelatedVariables.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/Tapestry.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/dijit/geoenrichment/themes/light/main.css
+	file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/toolbars/css/edit.css
+info(107) Package Version:
+	package: dojo; version: 1.10.2
+	package: dijit; version: 1.10.2
+	package: esri; version: 3.11
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+	plugin resource id: dojo-bidi?./_BidiMixin; reference module id: dijit/_WidgetBase
+	plugin resource id: extend-esri?./PopupInfo; reference module id: esri/PopupBase
+	plugin resource id: extend-esri?./OperationBase; reference module id: esri/undoManager
+	plugin resource id: extend-esri?./PopupTemplate; reference module id: esri/dijit/Popup
+	plugin resource id: extend-esri?./PopupRenderer; reference module id: esri/dijit/Popup
+	plugin resource id: touch?dgrid/util/touch; reference module id: esri/dijit/analysis/tree
+	plugin resource id: extend-esri?./agscommon; reference module id: esri/layers/FeatureLayer
+	plugin resource id: extend-esri?./GenerateRendererParameters; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./ClassificationDefinition; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./ClassBreaksDefinition; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./UniqueValueDefinition; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./ColorRamp; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./AlgorithmicColorRamp; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./MultipartColorRamp; reference module id: esri/tasks/GenerateRendererTask
+	plugin resource id: extend-esri?./PrintParameters; reference module id: esri/tasks/PrintTask
+	plugin resource id: extend-esri?./LegendLayer; reference module id: esri/tasks/PrintTask
+	plugin resource id: extend-esri?./QueryTask; reference module id: esri/tasks/query
+	plugin resource id: extend-esri?./RelationshipQuery; reference module id: esri/tasks/query
+	plugin resource id: extend-esri?./StatisticDefinition; reference module id: esri/tasks/query
+warn(224) A plugin dependency was encountered but there was no build-time plugin resolver.
+	module: dojo/request; plugin: dojo/request/default
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/registry; plugin: dojo/request/default
+	module: dijit/Fieldset; plugin: dojo/query
+	module: dijit/RadioMenuItem; plugin: dojo/query
+	module: dijit/Tree; plugin: dojo/query
+	module: dijit/form/_RadioButtonMixin; plugin: dojo/query
+	module: esri/dijit/FeatureTable; plugin: dojo/query
+warn(228) While optimizing a CSS file, an import directive was not expanded because the source for the import was not available to the builder.
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; import directive: @import url("../../dojox/form/resources/RangeSlider.css");
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; import directive: @import url("../../dojox/grid/resources/Grid.css");
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; import directive: @import url("../../dojox/form/resources/CheckedMultiSelect.css");
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; import directive: @import url("../../dojox/widget/TitleGroup/TitleGroup.css");
+error(311) Missing dependency.
+	module: esri/_coremap; dependency: dojox/gfx/matrix
+	module: esri/layout; dependency: dojox/fx
+	module: esri/layout; dependency: dojox/form/Rating
+	module: esri/layout; dependency: dojox/NodeList/delegate
+	module: esri/layout; dependency: dojox/charting/Chart2D
+	module: esri/layout; dependency: dojox/charting/themes/ThreeD
+	module: esri/layout; dependency: dojox/charting/themes/PrimaryColors
+	module: esri/layout; dependency: dojox/charting/themes/gradientGenerator
+	module: esri/layout; dependency: dojox/layout/ExpandoPane
+	module: esri/layout; dependency: dojox/layout/FloatingPane
+	module: esri/layout; dependency: dojox/layout/ResizeHandle
+	module: esri/arcgis/csv; dependency: dojox/data/CsvStore
+	module: esri/dijit/AttributeInspector; dependency: dojox/gfx
+	module: esri/dijit/AttributeInspector; dependency: dojox/date/islamic
+	module: esri/dijit/AttributeInspector; dependency: dojox/date/islamic/Date
+	module: esri/dijit/AttributeInspector; dependency: dojox/date/islamic/locale
+	module: esri/dijit/CalculateField; dependency: dgrid/OnDemandList
+	module: esri/dijit/CalculateField; dependency: dgrid/Selection
+	module: esri/dijit/CalculateField; dependency: dgrid/Keyboard
+	module: esri/dijit/CalculateField; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/CalculateField; dependency: dgrid/util/mouse
+	module: esri/dijit/CalculateField; dependency: put-selector/put
+	module: esri/dijit/ClassedColorSlider; dependency: dojox/gfx
+	module: esri/dijit/ClassedSizeSlider; dependency: dojox/gfx
+	module: esri/dijit/ColorInfoSlider; dependency: dojox/gfx
+	module: esri/dijit/FeatureTable; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/FeatureTable; dependency: dgrid/Selection
+	module: esri/dijit/FeatureTable; dependency: dgrid/Keyboard
+	module: esri/dijit/FeatureTable; dependency: dgrid/editor
+	module: esri/dijit/FeatureTable; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/FeatureTable; dependency: dgrid/extensions/ColumnHider
+	module: esri/dijit/FeatureTable; dependency: dgrid/extensions/ColumnResizer
+	module: esri/dijit/FeatureTable; dependency: dgrid/extensions/ColumnReorder
+	module: esri/dijit/Gauge; dependency: dojox/widget/AnalogGauge
+	module: esri/dijit/Gauge; dependency: dojox/widget/gauge/AnalogArcIndicator
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/Selection
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/Keyboard
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/extensions/ColumnResizer
+	module: esri/dijit/GeocodeMatch; dependency: dgrid/extensions/ColumnHider
+	module: esri/dijit/GeocodeReview; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/GeocodeReview; dependency: dgrid/Selection
+	module: esri/dijit/GeocodeReview; dependency: dgrid/Keyboard
+	module: esri/dijit/GeocodeReview; dependency: dgrid/editor
+	module: esri/dijit/GeocodeReview; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/GeocodeReview; dependency: dgrid/extensions/ColumnHider
+	module: esri/dijit/HeatmapSlider; dependency: dojox/gfx
+	module: esri/dijit/HistogramTimeSlider; dependency: dojox/gfx
+	module: esri/dijit/HistogramTimeSlider; dependency: dojox/form/RangeSlider
+	module: esri/dijit/HistogramTimeSlider; dependency: dojo/text!dojox/form/resources/HorizontalRangeSlider.html; error: Error: text resource (/tmp/dojox/form/resources/HorizontalRangeSlider.html) missing
+	module: esri/dijit/Legend; dependency: dojox/gfx
+	module: esri/dijit/Legend; dependency: dojox/gfx/matrix
+	module: esri/dijit/Legend; dependency: dojox/html/entities
+	module: esri/dijit/Measurement; dependency: dojox/gfx
+	module: esri/dijit/Rainbow; dependency: dojox/charting/themes/PlotKit/base
+	module: esri/dijit/SizeInfoSlider; dependency: dojox/gfx
+	module: esri/dijit/Tags; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/Tags; dependency: dgrid/Selection
+	module: esri/dijit/Tags; dependency: dgrid/Keyboard
+	module: esri/dijit/TimeSlider; dependency: dojox/timing/_base
+	module: esri/dijit/TimeSlider; dependency: dojox/form/RangeSlider
+	module: esri/dijit/TimeSlider; dependency: dojo/text!dojox/form/resources/HorizontalRangeSlider.html; error: Error: text resource (/tmp/dojox/form/resources/HorizontalRangeSlider.html) missing
+	module: esri/dijit/VisibleScaleRangeSlider; dependency: dojox/form/HorizontalRangeSlider
+	module: esri/dijit/VisibleScaleRangeSlider/ScaleMenu; dependency: dojox/lang/functional/object
+	module: esri/dijit/analysis/Analysis; dependency: dojox/widget/TitleGroup
+	module: esri/dijit/analysis/DissolveBoundaries; dependency: dojox/form/CheckedMultiSelect
+	module: esri/dijit/analysis/EnrichLayer; dependency: dgrid/List
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/Keyboard
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/Selection
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/selector
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/analysis/ExpressionGrid; dependency: dgrid/util/mouse
+	module: esri/dijit/analysis/ExpressionGrid; dependency: put-selector/put
+	module: esri/dijit/analysis/ExtractData; dependency: dojox/form/CheckedMultiSelect
+	module: esri/dijit/analysis/FindSimilarLocations; dependency: dojox/form/CheckedMultiSelect
+	module: esri/dijit/analysis/tree; dependency: dgrid/util/has-css3
+	module: esri/dijit/analysis/tree; dependency: dgrid/Grid
+	module: esri/dijit/analysis/tree; dependency: put-selector/put
+	module: esri/dijit/editing/TemplatePicker; dependency: dojox/grid/DataGrid
+	module: esri/dijit/editing/TemplatePicker; dependency: dojox/gfx
+	module: esri/dijit/editing/TemplatePickerItem; dependency: dojox/gfx
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/Chart
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/axis2d/Default
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/plot2d/Bars
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/plot2d/Lines
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/action2d/Tooltip
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/action2d/Highlight
+	module: esri/dijit/geoenrichment/AgePyramid; dependency: dojox/charting/SimpleTheme
+	module: esri/dijit/geoenrichment/BufferOptions; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/CheckList; dependency: dgrid/List
+	module: esri/dijit/geoenrichment/CheckList; dependency: dgrid/Selection
+	module: esri/dijit/geoenrichment/DataBrowser; dependency: dojox/mvc/sync
+	module: esri/dijit/geoenrichment/EnrichOptionsPage; dependency: dojox/html/entities
+	module: esri/dijit/geoenrichment/EnrichOptionsPage; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/geoenrichment/EnrichOptionsPage; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/geoenrichment/EnrichOptionsPage; dependency: dgrid/tree
+	module: esri/dijit/geoenrichment/EnrichOptionsPage; dependency: dojox/mvc/sync
+	module: esri/dijit/geoenrichment/InfographicsCarousel; dependency: dojox/gesture/swipe
+	module: esri/dijit/geoenrichment/InfographicsCarousel; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/Pagination; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/Pagination; dependency: dgrid/List
+	module: esri/dijit/geoenrichment/_WizardPage; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/DataBrowser/Breadcrumb; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/DataBrowser/DataCollectionsPage; dependency: dgrid/List
+	module: esri/dijit/geoenrichment/DataBrowser/DataCollectionsPage; dependency: dgrid/Selection
+	module: esri/dijit/geoenrichment/DataBrowser/DataVariablesPage; dependency: dgrid/tree
+	module: esri/dijit/geoenrichment/DataBrowser/DataVariablesPage; dependency: dgrid/OnDemandGrid
+	module: esri/dijit/geoenrichment/DataBrowser/DataVariablesPage; dependency: dgrid/extensions/DijitRegistry
+	module: esri/dijit/geoenrichment/DataBrowser/DataVariablesPage; dependency: dgrid/Selection
+	module: esri/dijit/geoenrichment/DataBrowser/ShoppingCart; dependency: dojox/mvc/Templated
+	module: esri/dijit/geoenrichment/DataBrowser/ShoppingCart; dependency: dgrid/List
+	module: esri/dijit/geoenrichment/DataBrowser/VariableInfo; dependency: dojox/mvc/Templated
+	module: esri/geometry/Rect; dependency: dojox/gfx/_base
+	module: esri/layers/DynamicMapServiceLayer; dependency: dojox/xml/parser
+	module: esri/layers/DynamicMapServiceLayer; dependency: dojox/gfx/matrix
+	module: esri/layers/GraphicsLayer; dependency: dojox/gfx
+	module: esri/layers/GraphicsLayer; dependency: dojox/gfx/matrix
+	module: esri/layers/LabelClass; dependency: dojox/gfx/_base
+	module: esri/layers/LabelLayer; dependency: dojox/gfx/_base
+	module: esri/layers/TiledMapServiceLayer; dependency: dojox/collections/ArrayList
+	module: esri/layers/TiledMapServiceLayer; dependency: dojox/gfx/matrix
+	module: esri/layers/WMTSLayer; dependency: dojox/xml/parser
+	module: esri/renderers/DotDensityRenderer; dependency: dojox/gfx/_base
+	module: esri/renderers/Renderer; dependency: dojox/gfx/_base
+	module: esri/renderers/jsonUtils; dependency: dojox/gfx/_base
+	module: esri/symbols/CartographicLineSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/Font; dependency: dojox/gfx/_base
+	module: esri/symbols/LineSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/MarkerSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/PictureFillSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/PictureMarkerSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/ShieldLabelSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/SimpleFillSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/SimpleLineSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/SimpleMarkerSymbol; dependency: dojox/gfx/_base
+	module: esri/symbols/TextSymbol; dependency: dojox/gfx/_base
+	module: esri/tasks/PrintTask; dependency: dojox/gfx/_base
+	module: esri/tasks/PrintTask; dependency: dojox/gfx/canvas
+	module: esri/tasks/PrintTask; dependency: dojox/json/query
+	module: esri/toolbars/_Box; dependency: dojox/gfx/Moveable
+	module: esri/toolbars/_Box; dependency: dojox/gfx/matrix
+	module: esri/toolbars/_GraphicMover; dependency: dojox/gfx/Moveable
+	module: esri/toolbars/_GraphicMover; dependency: dojox/gfx/Mover
+	module: esri/toolbars/_GraphicMover; dependency: dojox/gfx/matrix
+	module: esri/toolbars/_VertexMover; dependency: dojox/gfx/Moveable
+error(357) While optimizing a CSS file, it was impossible to compute the destination location of a relative URL.
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/esri.css; import: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; relative URL: url("../../dojox/form/resources/RangeSlider.css")
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/esri.css; import: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; relative URL: url("../../dojox/grid/resources/Grid.css")
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/esri.css; import: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; relative URL: url("../../dojox/form/resources/CheckedMultiSelect.css")
+	CSS file: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/esri.css; import: /apps/jsopt/20141218/weboptimizer/server/data/versions/3.12/src/esri/css/widgets-2.css; relative URL: url("../../dojox/widget/TitleGroup/TitleGroup.css")
+Layer Contents:
+dojo/dojo:
+	dojo/dojo
+	dojo/fx/Toggler
+	dojo/_base/lang
+	dojo/_base/kernel
+	dojo/has
+	dojo/_base/config
+	dojo/sniff
+	dojo/_base/declare
+	dojo/_base/fx
+	dojo/Evented
+	dojo/aspect
+	dojo/on
+	dojo/_base/Color
+	dojo/_base/array
+	dojo/dom
+	dojo/_base/window
+	dojo/dom-style
+	dojo/_base/html
+	dojo/dom-attr
+	dojo/dom-prop
+	dojo/dom-construct
+	dojo/_base/connect
+	dojo/topic
+	dojo/_base/event
+	dojo/dom-geometry
+	dojo/mouse
+	dojo/_base/sniff
+	dojo/keys
+	dojo/dom-class
+	dijit/_base/manager
+	dijit/registry
+	dijit/main
+	esri/arcgis/OAuthInfo
+	esri/kernel
+	esri/lang
+	dojo/_base/json
+	dojo/json
+	dojo/date
+	dojo/number
+	dojo/i18n
+	dojo/_base/xhr
+	dojo/io-query
+	dojo/dom-form
+	dojo/_base/Deferred
+	dojo/Deferred
+	dojo/errors/CancelError
+	dojo/errors/create
+	dojo/promise/Promise
+	dojo/promise/instrumentation
+	dojo/promise/tracer
+	dojo/when
+	dojo/request/watch
+	dojo/request/util
+	dojo/errors/RequestError
+	dojo/errors/RequestTimeoutError
+	dojo/request/xhr
+	dojo/request/handlers
+	dojo/selector/_loader
+	dojo/cldr/nls/number
+	dojo/string
+	dojo/regexp
+	dojo/date/locale
+	dojo/cldr/supplemental
+	dojo/cldr/nls/gregorian
+	esri/arcgis/Portal
+	esri/request
+	dojo/_base/url
+	dojo/io/script
+	dojo/request/script
+	dojo/io/iframe
+	dojo/query
+	dojo/request/iframe
+	dojo/NodeList-dom
+	esri/config
+	esri/sniff
+	esri/urlUtils
+	esri/nls/jsapi
+	esri/deferredUtils
+	esri/Evented
+	esri/IdentityManager
+	esri/IdentityManagerDialog
+	dijit/Dialog
+	dojo/ready
+	dojo/domReady
+	dojo/window
+	dojo/dnd/Moveable
+	dojo/touch
+	dojo/dnd/common
+	dojo/dnd/Mover
+	dojo/dnd/autoscroll
+	dojo/dnd/TimedMoveable
+	dijit/focus
+	dojo/Stateful
+	dijit/a11y
+	dijit/_Widget
+	dijit/_WidgetBase
+	dijit/Destroyable
+	dijit/_OnDijitClickMixin
+	dijit/a11yclick
+	dijit/_FocusMixin
+	dojo/uacss
+	dijit/hccss
+	dojo/hccss
+	dijit/_TemplatedMixin
+	dojo/cache
+	dojo/text
+	dojo/request
+	dojo/request/default
+	dijit/_AttachMixin
+	dijit/_CssStateMixin
+	dijit/form/_FormMixin
+	dijit/_DialogMixin
+	dijit/DialogUnderlay
+	dijit/BackgroundIframe
+	dijit/Viewport
+	dijit/layout/ContentPane
+	dijit/_Container
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/layout/utils
+	dojo/html
+	dojo/parser
+	dojo/promise/all
+	dojo/date/stamp
+	dijit/nls/loading
+	dijit/templates/Dialog.html
+	dijit/nls/common
+	esri/domUtils
+	esri/Credential
+	esri/IdentityManagerBase
+	dojo/cookie
+	esri/ServerInfo
+	esri/OAuthCredential
+	dijit/form/Button
+	dijit/form/_FormWidget
+	dijit/form/_FormWidgetMixin
+	dijit/form/_ButtonMixin
+	dijit/form/templates/Button.html
+	dijit/form/ValidationTextBox
+	dijit/form/TextBox
+	dijit/form/_FormValueWidget
+	dijit/form/_FormValueMixin
+	dijit/form/_TextBoxMixin
+	dijit/form/templates/TextBox.html
+	dijit/Tooltip
+	dijit/place
+	dijit/templates/Tooltip.html
+	dijit/form/templates/ValidationTextBox.html
+	dijit/form/nls/validate
+	esri/OAuthSignInHandler
+
+Optimizer Messages:
+/tmp/config-8262594726402313/release/dojo/dojo.js:
+dojo.js.uncompressed.js:148: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:158: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:219: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:236: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:574: WARNING - unreachable code
+					if( 0  && p=="async"){
+					                     ^
+
+dojo.js.uncompressed.js:695: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:703: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:718: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:730: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:746: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:759: WARNING - unreachable code
+				if( 0  && comboPending && !comboPendingTimer){
+				                                             ^
+
+dojo.js.uncompressed.js:858: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:863: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:950: WARNING - unreachable code
+			if( 0 ){
+			       ^
+
+dojo.js.uncompressed.js:1055: WARNING - unreachable code
+				if( 0  && legacyMode == sync && !plugin.executed){
+				                                                 ^
+
+dojo.js.uncompressed.js:1127: WARNING - unreachable code
+			if( 0 ){
+			       ^
+
+dojo.js.uncompressed.js:1237: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1312: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1379: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1412: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+dojo.js.uncompressed.js:1452: WARNING - unreachable code
+					if( 0  && legacyMode){
+					                     ^
+
+dojo.js.uncompressed.js:1468: WARNING - unreachable code
+				if( 0  && legacyMode){
+				                     ^
+
+dojo.js.uncompressed.js:1553: WARNING - unreachable code
+				if( 0  && module.plugin && module.plugin.isCombo){
+				                                                 ^
+
+dojo.js.uncompressed.js:1589: WARNING - unreachable code
+				if( 0  && legacyMode && !waiting[mid]){
+				                                      ^
+
+dojo.js.uncompressed.js:1629: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1726: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1738: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1805: WARNING - unreachable code
+		if( 0  && args[1]===defaultDeps){
+		                                ^
+
+dojo.js.uncompressed.js:1839: WARNING - unreachable code
+				if( 0  && !targetModule){
+				                        ^
+
+dojo.js.uncompressed.js:1849: WARNING - unreachable code
+			if( 0  && isArray(targetModule)){
+			                                ^
+
+dojo.js.uncompressed.js:1867: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1897: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:1927: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:1934: WARNING - unreachable code
+		if( 0 ){
+		       ^
+
+dojo.js.uncompressed.js:1939: WARNING - unreachable code
+	if( 0  && req.combo && req.combo.plugins){
+	                                         ^
+
+dojo.js.uncompressed.js:1953: WARNING - unreachable code
+	if(! 1 ){
+	        ^
+
+dojo.js.uncompressed.js:2846: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:2889: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:2942: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:2959: WARNING - unreachable code
+	if( 0 ){
+	       ^
+
+dojo.js.uncompressed.js:3028: WARNING - unreachable code
+	if(! 1 ){
+	        ^
+
+dojo.js.uncompressed.js:3370: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:5912: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:9018: WARNING - unreachable code
+			}else{
+			     ^
+
+dojo.js.uncompressed.js:9621: WARNING - unreachable code
+		if(! 1 ){
+		        ^
+
+dojo.js.uncompressed.js:9830: WARNING - unreachable code
+	if(! 1 ){
+	        ^
+
+dojo.js.uncompressed.js:11144: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:15302: WARNING - unreachable code
+		if(! 1 ){ return; }
+		        ^
+
+dojo.js.uncompressed.js:15616: WARNING - unreachable code
+	}else if(has('activex')){
+	      ^
+
+dojo.js.uncompressed.js:23569: WARNING - unreachable code
+	if( 0  && dojo.config.parseOnLoad && !dojo.isAsync){
+	                                                   ^
+
+dojo.js.uncompressed.js:23658: WARNING - unreachable code
+		if(! 1 ){
+		        ^
+
+dojo.js.uncompressed.js:28066: WARNING - unreachable code
+	}else{
+	     ^
+
+dojo.js.uncompressed.js:28372: WARNING - unreachable code
+	}else if( 0 ){
+	      ^
+
+dojo.js.uncompressed.js:31475: WARNING - Suspicious code. This code lacks side-effects. Is there a bug?
+	new Date("X"); // workaround for #11279, new Date("") == NaN
+	^
+
+dojo.js.uncompressed.js:32154: WARNING - unreachable code
+				if( 0 ){
+				       ^
+
+0 error(s), 55 warning(s)
+Done (compile time:9.466s)
+
+
+Process finished normally
+	errors: 151
+	warnings: 34
+	build time: 146.806 seconds
