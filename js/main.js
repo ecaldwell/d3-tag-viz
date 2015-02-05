@@ -28,11 +28,15 @@ require([
     oAuthPopupConfirmation: false
   }).then(function (user) {
     app.user = user;
-    doSearch("owner:" + user.userId);
+    doSearch("");
   });
   ////////////////////////////////////////////////////////////////////////////
 
   function doSearch(query) {
+
+    if (query === "") {
+      query = "owner:" + app.user.userId;
+    }
 
     var allTags = [];
 
