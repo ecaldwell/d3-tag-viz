@@ -6,6 +6,7 @@ require([
   var app = {};
 
   document.getElementById("search").onclick = function() {
+    document.getElementById("graph").innerHTML = "";
     var query = document.getElementById("searchString").value;
     doSearch(query);
   };
@@ -23,29 +24,12 @@ require([
     popup: true
   });
   esriId.registerOAuthInfos([appInfo]);
-
-  //  esriId.checkSignInStatus(appInfo.portalUrl).then(
-  //    function (user) {
-  //      jquery("#splashContainer").css("display", "none");
-  //      jquery("#itemsContainer").css("display", "block");
-  //      app.user = user;
-  //      app.user.server = app.user.server + "/";
-  //      startSession(user);
-  //    }
-  //  ).otherwise(
-  //    function () {
-  //      jquery("#itemsContainer").css("display", "none");
-  //      jquery("#splashContainer").css("display", "block");
-  //    }
-  //  );
-
   esriId.getCredential(appInfo.portalUrl, {
     oAuthPopupConfirmation: false
   }).then(function (user) {
     app.user = user;
     doSearch("owner:" + user.userId);
   });
-
   ////////////////////////////////////////////////////////////////////////////
 
   function doSearch(query) {
