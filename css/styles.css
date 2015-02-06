@@ -18,6 +18,7 @@
 .node--source,
 .node--target {
   font-weight: 700;
+  font-size: 15px;
 }
 
 .node--source {
