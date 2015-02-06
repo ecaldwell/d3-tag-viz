@@ -43,6 +43,7 @@ require([
     // Run the search and get all the tags.
     portal.search(app.user.server + "/", query, 100, "", "", "", app.user.token).then(function (results) {
       console.log(results.length + " results");
+      document.getElementById("label").innerHTML = results.length + " results for " + query;
       var items = _.pluck(results, "tags");
       _.forEach(items, function (tags) {
         _.forEach(tags, function (tag) {
