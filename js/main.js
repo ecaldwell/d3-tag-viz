@@ -1,17 +1,17 @@
 require([
-  "d3", "lodash", "portal/portal",
-  "esri/arcgis/OAuthInfo", "esri/IdentityManager", "dojo/on"
-], function (d3, _, portal, arcgisOAuthInfo, esriId, on) {
+  "d3", "lodash",
+  "esri/arcgis/OAuthInfo", "esri/IdentityManager", "esri/arcgis/Portal", "dojo/on"
+], function (d3, _, arcgisOAuthInfo, esriId, arcgisPortal, on) {
 
   var app = {};
 
-  document.getElementById("search").onclick = function() {
+  document.getElementById("search").onclick = function () {
     document.getElementById("graph").innerHTML = "";
     var query = document.getElementById("searchString").value;
     doSearch(query);
   };
 
-  document.getElementById("logout").onclick = function() {
+  document.getElementById("logout").onclick = function () {
     sessionStorage.clear();
     window.location.reload();
   };
@@ -28,6 +28,7 @@ require([
     oAuthPopupConfirmation: false
   }).then(function (user) {
     app.user = user;
+    app.Portal = new arcgisPortal.Portal(user.server);
     doSearch("");
   });
   ////////////////////////////////////////////////////////////////////////////
@@ -37,14 +38,21 @@ require([
     if (query === "") {
       query = "owner:" + app.user.userId;
     }
-
-    var allTags = [];
+    var queryParams = {
+      num: 100,
+      q: query,
+      sortField: "created",
+      token: app.user.token
+    };
 
     // Run the search and get all the tags.
-    portal.search(app.user.server + "/", query, 100, "", "", "", app.user.token).then(function (results) {
-      console.log(results.length + " results");
-      document.getElementById("label").innerHTML = results.length + " results for " + query;
-      var items = _.pluck(results, "tags");
+    app.Portal.queryItems(queryParams).then(function (results) {
+      var allTags = [];
+      var items = _.pluck(results.results, "tags");
+
+      console.log(results.results.length + " results");
+      document.getElementById("label").innerHTML = results.results.length + " results for " + query;
+      
       _.forEach(items, function (tags) {
         _.forEach(tags, function (tag) {
           var tagIndex = _.findIndex(allTags, {
