@@ -1,17 +1,21 @@
 require([
-  "d3", "lodash", "portal/portal",
-  "esri/arcgis/OAuthInfo", "esri/IdentityManager", "dojo/on"
-], function (d3, _, portal, arcgisOAuthInfo, esriId, on) {
+  "d3",
+  "lodash",
+  "esri/arcgis/OAuthInfo",
+  "esri/IdentityManager",
+  "esri/arcgis/Portal",
+  "dojo/on"
+], function (d3, _, arcgisOAuthInfo, esriId, arcgisPortal, on) {
 
   var app = {};
 
-  document.getElementById("search").onclick = function() {
+  document.getElementById("search").onclick = function () {
     document.getElementById("graph").innerHTML = "";
     var query = document.getElementById("searchString").value;
     doSearch(query);
   };
 
-  document.getElementById("logout").onclick = function() {
+  document.getElementById("logout").onclick = function () {
     sessionStorage.clear();
     window.location.reload();
   };
@@ -28,7 +32,12 @@ require([
     oAuthPopupConfirmation: false
   }).then(function (user) {
     app.user = user;
+    app.Portal = new arcgisPortal.Portal(user.server);
     doSearch("");
+    app.portal = ArcGIS({token: app.user.token});
+    app.portal.request().then(function(response) {
+      console.log(response);
+    });
   });
   ////////////////////////////////////////////////////////////////////////////
 
@@ -37,31 +46,57 @@ require([
     if (query === "") {
       query = "owner:" + app.user.userId;
     }
-
-    var allTags = [];
+    var queryParams = {
+      num: 100,
+      q: query,
+      sortField: "created",
+      token: app.user.token,
+      start: 1
+    };
 
     // Run the search and get all the tags.
-    portal.search(app.user.server + "/", query, 100, "", "", "", app.user.token).then(function (results) {
-      console.log(results.length + " results");
-      document.getElementById("label").innerHTML = results.length + " results for " + query;
-      var items = _.pluck(results, "tags");
-      _.forEach(items, function (tags) {
-        _.forEach(tags, function (tag) {
-          var tagIndex = _.findIndex(allTags, {
-            "name": tag
-          });
-          if (tagIndex !== -1) {
-            var existingTags = allTags[tagIndex].imports;
-            allTags[tagIndex].imports = _.union(existingTags, _.without(tags, tag));
-          } else {
-            allTags.push({
-              "name": tag,
-              "imports": _.without(tags, tag)
+    var allResults = [];
+    var x = 1;
+    app.Portal.queryItems(queryParams).then(function (results) {
+      // Limit the total results to the search max of 10,000.
+      var total = ((results.total < 10000) ? results.total : 10000);
+      console.log(total + " results");
+      document.getElementById("label").innerHTML = "collecting " + total + " results for " + query;
+      allResults.push.apply(allResults, results.results);
+      queryParams = results.nextQueryParams;
+      do {
+        x += 1;
+        app.Portal.queryItems(queryParams).then(function (nextResults) {
+          allResults.push.apply(allResults, nextResults.results);
+          if (allResults.length === total) {
+            console.log("Drawing results");
+            document.getElementById("label").innerHTML = "showing " + total + " results for " + query;
+            var allTags = [];
+            var items = _.pluck(allResults, "tags");
+
+            _.forEach(items, function (tags) {
+              _.forEach(tags, function (tag) {
+                var tagIndex = _.findIndex(allTags, {
+                  "name": tag
+                });
+                if (tagIndex !== -1) {
+                  var existingTags = allTags[tagIndex].imports;
+                  allTags[tagIndex].imports = _.union(existingTags, _.without(tags, tag));
+                } else {
+                  allTags.push({
+                    "name": tag,
+                    "imports": _.without(tags, tag)
+                  });
+                }
+              });
             });
+            drawIt(allTags);
           }
         });
-      });
-      drawIt(allTags);
+        queryParams.start += queryParams.num;
+      }
+      while (queryParams.start < total && x < 100);
+      
     });
   }
 
